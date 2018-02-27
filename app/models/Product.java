@@ -79,7 +79,7 @@ public class Product extends Model {
         public void setPrice(double price) { 
             this.price = price; 
         }
-        public Long getCatSelect(){
+        public List<Long> getCatSelect(){
             return catSelect;
         }
 

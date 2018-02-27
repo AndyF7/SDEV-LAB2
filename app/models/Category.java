@@ -15,7 +15,7 @@ public class Category extends Model {
     @Constraints.Required
     public String name;
 
-    @ManytoMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = CascadeType.ALL)
     public List<Product> products;
 
     public Category() {
